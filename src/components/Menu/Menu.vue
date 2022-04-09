@@ -29,24 +29,30 @@
     <q-menu fit>
       <q-list>
         <q-item clickable v-close-popup>
-          <router-link class="horizontalmobile__menu-item-link" to="/"
+          <router-link
+            class="horizontalmobile__menu-item-link full-width"
+            to="/"
             >Inicial</router-link
           >
         </q-item>
         <q-item clickable v-close-popup>
-          <router-link class="horizontalmobile__menu-item-link" to="/categories"
+          <router-link
+            class="horizontalmobile__menu-item-link full-width"
+            to="/categories"
             >Drinks</router-link
           >
         </q-item>
         <q-item clickable v-close-popup>
           <router-link
-            class="horizontalmobile__menu-item-link"
+            class="horizontalmobile__menu-item-link full-width"
             to="/drinks/type/Non_Alcoholic/"
             >Drinks não alcoólicos</router-link
           >
         </q-item>
         <q-item clickable v-close-popup>
-          <router-link class="horizontalmobile__menu-item-link" to="/"
+          <router-link
+            class="horizontalmobile__menu-item-link full-width"
+            to="/"
             >Drink Aleatório</router-link
           >
         </q-item>
