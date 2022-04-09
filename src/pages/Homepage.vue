@@ -3,9 +3,9 @@
     <div class="homepage row full-width">
       <div class="col-12 row homepage__item section__full flex justify-end">
         <div
-          class="col-md-6 col-lg-6 col-12 justify-center items-center flex q-pa-lg"
+          class="col-md-6 col-lg-6 col-12 justify-center items-center flex q-pa-lg section__full-text"
         >
-          <p class="text-h6">
+          <p class="">
             Bem vindos(as) ao WeDoDrinks! Aqui você encontrará receitas de
             bebidas e coquetéis de todo o mundo. Essa aplicação utiliza a API
             thecocktaildb, a qual é a fonte de todos os dados aqui exibidos.
@@ -112,6 +112,9 @@ export default defineComponent({
   background-size: cover;
   background-attachment: fixed;
   height: 250px;
+}
+.section__full-text {
+  background-color: #fffc;
 }
 .homepage__item-img {
   width: 100%;
