@@ -28,6 +28,7 @@
                 <q-btn
                   color="accent"
                   text-color="white"
+                  to="/categories"
                   label="Encontrar drinks"
                 />
               </div>

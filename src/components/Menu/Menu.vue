@@ -2,16 +2,24 @@
   <nav class="full-width flex justify-center">
     <ul class="horizontal__menu no-padding no-margin">
       <li class="horizontal__menu-item">
-        <a href="" class="horizontal__menu-item-link">Inicial</a>
+        <router-link class="horizontal__menu-item-link" to="/"
+          >Inicial</router-link
+        >
       </li>
       <li class="horizontal__menu-item">
-        <a href="" class="horizontal__menu-item-link">Drinks</a>
+        <router-link class="horizontal__menu-item-link" to="/categories"
+          >Drinks</router-link
+        >
       </li>
       <li class="horizontal__menu-item">
-        <a href="" class="horizontal__menu-item-link">Drinks não alcoólicos</a>
+        <router-link class="horizontal__menu-item-link" to="/"
+          >Drinks não alcoólicos</router-link
+        >
       </li>
       <li class="horizontal__menu-item">
-        <a href="" class="horizontal__menu-item-link">Drink Aleatório</a>
+        <router-link class="horizontal__menu-item-link" to="/"
+          >Drink Aleatório</router-link
+        >
       </li>
     </ul>
   </nav>
