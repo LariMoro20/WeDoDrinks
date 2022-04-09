@@ -63,7 +63,7 @@ export default defineComponent({
 .categories__title {
   font-weight: 400;
   color: #fff;
-  font-size: 3em;
+  font-size: 2em;
   line-height: normal;
 }
 </style>

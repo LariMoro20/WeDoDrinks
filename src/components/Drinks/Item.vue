@@ -23,8 +23,10 @@
     persistent
   >
     <q-card class="bg-grey-10 text-white" style="width: 100%; max-width: 100vw">
-      <q-card-section class="text-center">
+      <q-card-section class="text-center row items-center">
         <div class="text-h6 text-capitalize">{{ drinkDetails.strDrink }}</div>
+        <q-space />
+        <q-btn icon="close" flat round dense v-close-popup />
       </q-card-section>
 
       <q-card-section
