@@ -8,8 +8,16 @@ const routes = [
     path: "/Categories",
     component: () => import("layouts/MainLayout.vue"),
     children: [
-      { path: "", component: () => import("pages/Categories.vue") },
-      { path: "item/:id", component: () => import("src/pages/CategoriePage.vue") }
+      { path: "", component: () => import("src/pages/Categories/Categories.vue") },
+      { path: "item/:id", component: () => import("src/pages/Categories/CategoriePage.vue") }
+    ],
+  },
+  {
+    path: "/Drinks",
+    component: () => import("layouts/MainLayout.vue"),
+    children: [
+      //{ path: "", component: () => import("pages/Categories.vue") },
+      { path: "type/:id", component: () => import("src/pages/Drinks/Drinks.vue") }
     ],
   },
 

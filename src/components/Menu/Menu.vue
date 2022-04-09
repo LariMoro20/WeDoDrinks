@@ -12,7 +12,9 @@
         >
       </li>
       <li class="horizontal__menu-item">
-        <router-link class="horizontal__menu-item-link" to="/"
+        <router-link
+          class="horizontal__menu-item-link"
+          to="/drinks/type/Non_Alcoholic/"
           >Drinks não alcoólicos</router-link
         >
       </li>

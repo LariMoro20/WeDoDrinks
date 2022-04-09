@@ -85,6 +85,7 @@
                 <q-btn
                   color="accent"
                   text-color="white"
+                  to="/drinks/type/Non_Alcoholic/"
                   label="Conferir os drinks"
                 />
               </div>
