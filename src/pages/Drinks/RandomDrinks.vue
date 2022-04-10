@@ -2,7 +2,7 @@
   <q-page class="randon__bg flex justify-center full-height">
     <div class="row flex justify-center">
       <div
-        class="col-md-6 col-lg-6 col-6 q-px-sm q-py-sm q-mt-md"
+        class="col-md-6 col-lg-6 col-10 q-px-sm q-py-sm q-mt-md"
         v-for="(drink, ikey) in drinks"
         :key="ikey"
       >
