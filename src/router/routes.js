@@ -17,9 +17,11 @@ const routes = [
     component: () => import("layouts/MainLayout.vue"),
     children: [
       //{ path: "", component: () => import("pages/Categories.vue") },
-      { path: "type/:id", component: () => import("src/pages/Drinks/Drinks.vue") }
+      { path: "type/:id", component: () => import("src/pages/Drinks/Drinks.vue") },
+      { path: "RandomDrink", component: () => import("src/pages/Drinks/RandomDrinks.vue") }
     ],
   },
+
 
   // Always leave this as last one,
   // but you can also remove it

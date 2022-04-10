@@ -60,6 +60,7 @@
                 <q-btn
                   color="accent"
                   text-color="white"
+                  to="/drinks/RandomDrink"
                   label="Sortear um drink agora!"
                 />
               </div>

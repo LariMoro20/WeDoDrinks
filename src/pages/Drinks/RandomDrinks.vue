@@ -1,20 +1,17 @@
 <template>
-  <q-page>
-    <div class="categories row flex q-py-md">
-      <div class="drinks__title text-center full-width">
-        Drinks
-        {{ $route.params.id.replace("_", " ") }}
-      </div>
-      <div class="container">
-        <div class="drinks__itens row flex flex-center">
-          <div
-            class="col-md-3 col-lg-3 col-6 q-px-sm q-py-sm"
-            v-for="(drink, ikey) in drinks"
-            :key="ikey"
-          >
-            <Item :drink="drink" />
-          </div>
+  <q-page class="randon__bg flex justify-center full-height">
+    <div class="row flex justify-center">
+      <div
+        class="col-md-6 col-lg-6 col-6 q-px-sm q-py-sm q-mt-md"
+        v-for="(drink, ikey) in drinks"
+        :key="ikey"
+      >
+        <div
+          class="drinks__title text-black text-center full-width randon__item q-pa-md"
+        >
+          O desafio foi dado.. e o drink da vez é:
         </div>
+        <Item :drink="drink" />
       </div>
     </div>
   </q-page>
@@ -38,7 +35,7 @@ export default defineComponent({
       getAPI();
     });
     const getAPI = async () => {
-      await api.get("filter.php?a=" + route.params.id).then((res) => {
+      await api.get("random.php").then((res) => {
         drinks.value = res.data.drinks;
       });
     };
@@ -51,17 +48,17 @@ export default defineComponent({
 });
 </script>
 <style scoped>
-.section__full {
-  background-image: url("/images/bg1.jpg");
+.randon__bg {
+  background-image: url("/images/bg2.jpg");
   background-size: cover;
-  background-attachment: fixed;
-  height: 250px;
 }
-
 .drinks__title {
   font-weight: 400;
   color: #fff;
   font-size: 2em;
   line-height: normal;
+}
+.randon__item {
+  background-color: #ffffffa3;
 }
 </style>

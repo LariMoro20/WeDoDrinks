@@ -19,7 +19,7 @@
         >
       </li>
       <li class="horizontal__menu-item">
-        <router-link class="horizontal__menu-item-link" to="/"
+        <router-link class="horizontal__menu-item-link" to="/drinks/RandomDrink"
           >Drink Aleatório</router-link
         >
       </li>
@@ -52,7 +52,7 @@
         <q-item clickable v-close-popup>
           <router-link
             class="horizontalmobile__menu-item-link full-width"
-            to="/"
+            to="/drinks/RandomDrink"
             >Drink Aleatório</router-link
           >
         </q-item>

@@ -34,10 +34,10 @@
       >
         <div class="itemtrst full-width">
           <div class="row">
-            <div class="col-md-4 text-center">
-              <div class="drink__modal-image">
+            <div class="col-md-4 col-12 text-center">
+              <div class="drink__modal-image text-center">
                 <img
-                  class="drink__modal-image-img q-pa-md"
+                  class="drink__modal-image-img q-pa-md col-6"
                   :src="drinkDetails.strDrinkThumb"
                 />
               </div>
@@ -55,10 +55,7 @@
                 <div class="drink__info-item-title">Tipo de copo:</div>
                 {{ drinkDetails.strGlass }}
               </div>
-              <div class="drink__info-item">
-                <div class="drink__info-item-title">Instruções:</div>
-                {{ drinkDetails.strInstructions }}
-              </div>
+
               <div class="drink__info-item">
                 <div class="drink__info-item-title">Ingredientes:</div>
                 <ul>
@@ -108,6 +105,10 @@
                     {{ drinkDetails.strIngredient15 }}
                   </li>
                 </ul>
+              </div>
+              <div class="drink__info-item">
+                <div class="drink__info-item-title">Instruções:</div>
+                {{ drinkDetails.strInstructions }}
               </div>
             </div>
           </div>
