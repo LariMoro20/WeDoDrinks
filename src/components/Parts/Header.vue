@@ -1,7 +1,9 @@
 <template>
   <div class="header bg-primary">
     <div class="header-logo text-center">
-      <img class="header-logo-img" src="/logo/logotipo.png" />
+      <router-link to="/"
+        ><img class="header-logo-img" src="/logo/logotipo.png"
+      /></router-link>
     </div>
     <Menu />
   </div>
