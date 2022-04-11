@@ -3,7 +3,7 @@
     <div class="categories row flex q-py-md">
       <div class="categories__title text-center full-width">Categorias</div>
       <div class="container">
-        <div class="categories__itens row flex flex-center">
+        <div v-if="categories" class="categories__itens row flex flex-center">
           <div
             class="col-md-3 col-lg-3 col-6 q-px-sm q-py-sm"
             v-for="(categorie, ikey) in categories"
@@ -11,6 +11,9 @@
           >
             <Item :categorie="categorie" />
           </div>
+        </div>
+        <div class="text-white row flex flex-center" v-else>
+          Categorias não encontradas..
         </div>
       </div>
     </div>

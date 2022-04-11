@@ -1,12 +1,12 @@
 <template>
   <q-page>
-    <div class="categories row flex q-py-md">
+    <div class="drinks row flex q-py-md">
       <div class="drinks__title text-center full-width">
         Drinks
         {{ $route.params.id.replace("_", " ") }}
       </div>
       <div class="container">
-        <div class="drinks__itens row flex flex-center">
+        <div v-if="drinks" class="drinks__itens row flex flex-center">
           <div
             class="col-md-3 col-lg-3 col-6 q-px-sm q-py-sm"
             v-for="(drink, ikey) in drinks"
@@ -14,6 +14,9 @@
           >
             <Item :drink="drink" />
           </div>
+        </div>
+        <div class="text-white row flex flex-center" v-else>
+          Drinks não encontrados..
         </div>
       </div>
     </div>
@@ -27,7 +30,7 @@ import { useRoute } from "vue-router";
 import Item from "src/components/Drinks/Item.vue";
 
 export default defineComponent({
-  name: "Categories",
+  name: "drinks",
   components: {
     Item,
   },

@@ -6,7 +6,7 @@
         {{ $route.params.id.replace("-", "/").replace("_", " ") }}
       </div>
       <div class="container">
-        <div class="categories__itens row flex flex-center">
+        <div v-if="drinks" class="categories__itens row flex flex-center">
           <div
             class="col-md-3 col-lg-3 col-6 q-px-sm q-py-sm"
             v-for="(drink, ikey) in drinks"
@@ -14,6 +14,9 @@
           >
             <Item :drink="drink" />
           </div>
+        </div>
+        <div class="text-white row flex flex-center" v-else>
+          Categoria não encontrada..
         </div>
       </div>
     </div>
