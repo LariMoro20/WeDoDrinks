@@ -93,7 +93,7 @@
             </div>
             <div class="col-md-12 col-12 text-center q-pt-xl">
               <p class="text-white">
-                Desenvolvida com por
+                Desenvolvida com &#10084; por
                 <a
                   href="https://larissa-santos.vercel.app/"
                   class="text-white"
