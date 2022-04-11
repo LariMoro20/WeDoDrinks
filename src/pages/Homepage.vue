@@ -7,8 +7,7 @@
         >
           <p class="">
             Bem vindos(as) ao WeDoDrinks! Aqui você encontrará receitas de
-            bebidas e coquetéis de todo o mundo. Essa aplicação utiliza a API
-            thecocktaildb, a qual é a fonte de todos os dados aqui exibidos.
+            bebidas e coquetéis de todo o mundo. Drinks com e sem alcool!
           </p>
         </div>
       </div>

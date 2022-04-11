@@ -2,7 +2,11 @@ const routes = [
   {
     path: "/",
     component: () => import("layouts/MainLayout.vue"),
-    children: [{ path: "", component: () => import("pages/Homepage.vue") }],
+    children: [{ path: "", component: () => import("pages/Homepage.vue") },
+    { path: "about", component: () => import("src/pages/About.vue") },
+    { path: "drinks/type/:id", component: () => import("src/pages/Drinks/Drinks.vue") },
+    { path: "drinks/RandomDrink", component: () => import("src/pages/Drinks/RandomDrinks.vue") }],
+
   },
   {
     path: "/Categories",
@@ -12,15 +16,7 @@ const routes = [
       { path: "item/:id", component: () => import("src/pages/Categories/CategoriePage.vue") }
     ],
   },
-  {
-    path: "/Drinks",
-    component: () => import("layouts/MainLayout.vue"),
-    children: [
-      //{ path: "", component: () => import("pages/Categories.vue") },
-      { path: "type/:id", component: () => import("src/pages/Drinks/Drinks.vue") },
-      { path: "RandomDrink", component: () => import("src/pages/Drinks/RandomDrinks.vue") }
-    ],
-  },
+
 
 
   // Always leave this as last one,
