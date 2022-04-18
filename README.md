@@ -1,37 +1,34 @@
 # WeDoDrinks App (we_do_drinks)
 
-WeDoDrinks App
+Esta aplicação foi desenvolvida para estudo e composição de portifólio, podendo ser atualizada em qualquer momento.
+Os dados aqui exibidos, são obtidos através da API TheCocktailDB a qual é responsavel pelo armazenamento e atualização dos mesmos.
 
-## Install the dependencies
+Para visualizar o layout: https://wedodrinks-larimoro20.vercel.app/
+
+![imagem](https://github.com/LariMoro20/WeDoDrinks/blob/main/print1.png)
+
+- Vue/Quasar Framework
+- Reatividade;
+- Componentização;
+- Roteamento;
+- Consumo de API;
+
+## Instalação
 
 ```bash
 npm install
 ```
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
+### Rodar a aplicação:
 
 ```bash
-quasar dev
+npm start
 ```
 
-### Lint the files
-
-```bash
-npm run lint
-```
-
-### Format the files
-
-```bash
-npm run format
-```
-
-### Build the app for production
+### Build da aplicação
 
 ```bash
 quasar build
+cd dist/spa
+quasar serve
 ```
-
-### Customize the configuration
-
-See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).
