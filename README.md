@@ -1,7 +1,7 @@
 # WeDoDrinks App (we_do_drinks)
 
 Esta aplicação foi desenvolvida para estudo e composição de portifólio, podendo ser atualizada em qualquer momento.
-Os dados aqui exibidos, são obtidos através da API TheCocktailDB a qual é responsavel pelo armazenamento e atualização dos mesmos.
+Os dados aqui exibidos, são obtidos através da API TheCocktailDB (https://www.thecocktaildb.com/api.php) a qual é responsavel pelo armazenamento e atualização dos mesmos.
 
 Para visualizar o layout: https://wedodrinks-larimoro20.vercel.app/
 
