@@ -6,6 +6,11 @@
           >Inicial</router-link
         >
       </li>
+      <li class="horizontal__menu-item">
+        <router-link class="horizontal__menu-item-link" to="/about"
+          >Sobre</router-link
+        >
+      </li>
 
       <li class="horizontal__menu-item">
         <router-link class="horizontal__menu-item-link" to="/categories"
@@ -24,11 +29,6 @@
           >Drink Aleatório</router-link
         >
       </li>
-      <li class="horizontal__menu-item">
-        <router-link class="horizontal__menu-item-link" to="/about"
-          >Sobre</router-link
-        >
-      </li>
     </ul>
   </nav>
   <q-btn color="primary" label="Menu" class="mobile-only full-width">
@@ -39,6 +39,13 @@
             class="horizontalmobile__menu-item-link full-width"
             to="/"
             >Inicial</router-link
+          >
+        </q-item>
+        <q-item clickable v-close-popup>
+          <router-link
+            class="horizontalmobile__menu-item-link full-width"
+            to="/about"
+            >Sobre</router-link
           >
         </q-item>
 

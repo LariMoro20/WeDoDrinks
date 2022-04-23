@@ -15,40 +15,23 @@
       <q-card class="bg-primary text-white">
         <q-bar>
           <q-space />
-
-          <q-btn
-            dense
-            flat
-            icon="minimize"
-            @click="maximizedToggle = false"
-            :disable="!maximizedToggle"
-          >
-            <q-tooltip v-if="maximizedToggle" class="bg-white text-primary"
-              >Minimize</q-tooltip
-            >
-          </q-btn>
-          <q-btn
-            dense
-            flat
-            icon="crop_square"
-            @click="maximizedToggle = true"
-            :disable="maximizedToggle"
-          >
-            <q-tooltip v-if="!maximizedToggle" class="bg-white text-primary"
-              >Maximize</q-tooltip
-            >
-          </q-btn>
-          <q-btn dense flat icon="close" v-close-popup>
-            <q-tooltip class="bg-white text-primary">Close</q-tooltip>
-          </q-btn>
         </q-bar>
 
-        <q-card-section>
-          <div class="text-h6">Atenção</div>
-        </q-card-section>
-
-        <q-card-section class="q-pt-none">
-          Este site apresenta conteúdo destinado a maiores de 18 anos! 
+        <q-card-section
+          class="q-pt-none text-center flex items-center justify-center full-height"
+        >
+          <div>
+            <div class="text-h6">Atenção!</div>
+            <div class="text-subtitle1">
+              Este site apresenta conteúdo destinado a maiores de 18 anos! Caso
+              seja seu caso, clique no botão baixo<br />
+            </div>
+            <q-btn
+              color="red"
+              label="Sou maior de 18 anos"
+              @click="closePopup"
+            />
+          </div>
         </q-card-section>
       </q-card>
     </q-dialog>
@@ -113,10 +96,15 @@ export default defineComponent({
 
   setup() {
     const leftDrawerOpen = ref(false);
+    const dialog = ref(true);
+    const closePopup = () => {
+      dialog.value = false;
+    };
 
     return {
       essentialLinks: linksList,
-      dialog: ref(true),
+      closePopup,
+      dialog,
       maximizedToggle: ref(true),
       leftDrawerOpen,
       toggleLeftDrawer() {
