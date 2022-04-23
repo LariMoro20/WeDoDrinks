@@ -23,8 +23,8 @@
           <div>
             <div class="text-h6">Atenção!</div>
             <div class="text-subtitle1">
-              Este site apresenta conteúdo destinado a maiores de 18 anos! Caso
-              seja seu caso, clique no botão baixo<br />
+              Este site apresenta conteúdo destinado a maiores de 18 anos!<br />
+              Caso seja seu caso, clique no botão baixo<br />
             </div>
             <q-btn
               color="red"
