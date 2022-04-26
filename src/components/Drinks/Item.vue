@@ -15,14 +15,8 @@
       />
     </div>
   </div>
-  <q-dialog
-    class="bg-grey-10 text-white q-pa-none"
-    v-model="openDialog"
-    full-width
-    :maximized="maximizedToggle"
-    persistent
-  >
-    <q-card class="bg-grey-10 text-white" style="width: 100%; max-width: 100vw">
+  <q-dialog class="bg-grey-10 text-white q-pa-none" v-model="openDialog">
+    <q-card class="bg-grey-10 text-white" style="width: 100%; max-width: 90vw">
       <q-card-section class="text-center row items-center">
         <div class="text-h6 text-capitalize">{{ drinkDetails.strDrink }}</div>
         <q-space />
