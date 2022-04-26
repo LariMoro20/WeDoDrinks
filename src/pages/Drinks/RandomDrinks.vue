@@ -1,8 +1,8 @@
 <template>
-  <q-page class="randon__bg flex justify-center full-height">
+  <q-page class="randon__bg flex justify-center full-height q-pb-md">
     <div class="row flex justify-center">
       <div
-        class="col-md-6 col-lg-6 col-10 q-px-sm q-py-sm q-mt-md"
+        class="col-md-6 col-lg-6 col-10 q-px-sm q-py-sm q-mt-md text-center"
         v-for="(drink, ikey) in drinks"
         :key="ikey"
       >
@@ -12,6 +12,12 @@
           O desafio foi dado.. e o drink da vez é:
         </div>
         <Item :drink="drink" />
+        <q-btn
+          color="secondary"
+          icon="refresh"
+          label="Sortear novamente"
+          @click="getAPI"
+        />
       </div>
     </div>
   </q-page>
