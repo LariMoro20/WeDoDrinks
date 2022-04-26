@@ -30,9 +30,9 @@
           <div class="row">
             <div class="col-md-1 col-12"></div>
             <div class="col-md-3 col-12 text-center">
-              <div class="drink__modal-image text-center">
+              <div class="drink__modal-image text-center q-pa-md">
                 <img
-                  class="drink__modal-image-img q-pa-md col-6"
+                  class="drink__modal-image-img col-6"
                   :src="drinkDetails.strDrinkThumb"
                 />
               </div>
@@ -174,6 +174,7 @@ export default {
 
 .drink__modal-image-img {
   max-width: 100%;
+  border: 5px ridge;
 }
 
 .drink__info-item {
