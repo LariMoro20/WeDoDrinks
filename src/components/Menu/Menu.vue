@@ -6,11 +6,6 @@
           >Inicial</router-link
         >
       </li>
-      <li class="horizontal__menu-item">
-        <router-link class="horizontal__menu-item-link" to="/about"
-          >Sobre</router-link
-        >
-      </li>
 
       <li class="horizontal__menu-item">
         <router-link class="horizontal__menu-item-link" to="/categories"
@@ -27,6 +22,11 @@
       <li class="horizontal__menu-item">
         <router-link class="horizontal__menu-item-link" to="/drinks/RandomDrink"
           >Drink Aleatório</router-link
+        >
+      </li>
+      <li class="horizontal__menu-item">
+        <router-link class="horizontal__menu-item-link" to="/about"
+          >Sobre</router-link
         >
       </li>
     </ul>
@@ -92,6 +92,7 @@ export default {};
 .horizontal__menu-item {
   padding: 10px;
   display: inline-block;
+  font-size: 1rem;
 }
 .horizontal__menu-item-link,
 .horizontal__menu-item-link:active {

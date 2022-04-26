@@ -19,7 +19,7 @@ export default {
 
 <style>
 .header {
-  padding: 20px;
+  padding: 10px;
 }
 .header-logo-img {
   width: 250px;
