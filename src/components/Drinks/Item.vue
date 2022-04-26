@@ -115,7 +115,7 @@
         align="right"
         class="bg-grey-10 text-white text-center flex justify-center q-pb-lg"
       >
-        <q-btn flat label="Fechar" class="bg-accent col-4" v-close-popup />
+        <q-btn flat label="Fechar" class="bg-primary col-4" v-close-popup />
       </q-card-actions>
     </q-card>
   </q-dialog>
