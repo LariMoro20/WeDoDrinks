@@ -1,5 +1,5 @@
 <template>
-  <div class="header bg-primary">
+  <div class="header bg-primary flex justify-between items-center">
     <div class="header-logo text-center">
       <router-link to="/"
         ><img class="header-logo-img" src="/logo/logotipo.png"

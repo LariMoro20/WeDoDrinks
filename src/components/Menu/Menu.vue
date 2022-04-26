@@ -1,5 +1,5 @@
 <template>
-  <nav class="full-width flex justify-center desktop-only">
+  <nav class="flex justify-center desktop-only">
     <ul class="horizontal__menu no-padding no-margin">
       <li class="horizontal__menu-item">
         <router-link class="horizontal__menu-item-link" to="/"
@@ -14,7 +14,7 @@
 
       <li class="horizontal__menu-item">
         <router-link class="horizontal__menu-item-link" to="/categories"
-          >Drinks</router-link
+          >Categorias</router-link
         >
       </li>
       <li class="horizontal__menu-item">
@@ -53,7 +53,7 @@
           <router-link
             class="horizontalmobile__menu-item-link full-width"
             to="/categories"
-            >Drinks</router-link
+            >Categorias</router-link
           >
         </q-item>
         <q-item clickable v-close-popup>
