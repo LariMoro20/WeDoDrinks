@@ -1,7 +1,9 @@
 <template>
   <q-page>
     <div class="categories row flex q-py-md">
-      <div class="categories__title text-center full-width">Categorias</div>
+      <div class="categories__title text-center full-width q-py-md">
+        Categorias
+      </div>
       <div class="container">
         <div v-if="categories" class="categories__itens row flex flex-center">
           <div

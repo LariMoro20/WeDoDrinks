@@ -1,7 +1,7 @@
 <template>
   <q-page>
     <div class="drinks row flex q-py-md">
-      <div class="drinks__title text-center full-width">
+      <div class="drinks__title text-center full-width q-py-md">
         Drinks
         {{ $route.params.id.replace("_", " ") }}
       </div>

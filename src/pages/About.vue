@@ -1,7 +1,7 @@
 <template>
   <q-page>
     <div class="about row full-width q-pt-md">
-      <div class="about__title text-center full-width">Sobre</div>
+      <div class="about__title text-center full-width q-py-md">Sobre</div>
       <div class="full-width q-pa-md">
         <div class="container">
           <div class="row">

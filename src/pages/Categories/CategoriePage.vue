@@ -1,7 +1,7 @@
 <template>
   <q-page>
     <div class="categories row flex q-py-md">
-      <div class="categories__title text-center full-width">
+      <div class="categories__title text-center full-width q-py-md">
         Drinks da categoria:
         {{ $route.params.id.replace("-", "/").replace("_", " ") }}
       </div>

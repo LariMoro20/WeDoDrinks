@@ -15,7 +15,7 @@
     </div>
     <div class="text-white text-center">
       <q-btn
-        color="accent"
+        color="primary"
         text-color="white"
         label="Ver categoria"
         :to="

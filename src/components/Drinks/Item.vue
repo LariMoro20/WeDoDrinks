@@ -8,7 +8,7 @@
     </div>
     <div class="text-white text-center">
       <q-btn
-        color="accent"
+        color="secondary"
         text-color="white"
         label="Detalhes"
         @click="handleOpenDialog"
