@@ -122,7 +122,6 @@
 </template>
 
 <script>
-import { defineComponent, onBeforeMount } from "vue";
 import { api } from "boot/axios";
 export default {
   props: {
