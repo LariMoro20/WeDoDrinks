@@ -34,7 +34,8 @@
       >
         <div class="itemtrst full-width">
           <div class="row">
-            <div class="col-md-4 col-12 text-center">
+            <div class="col-md-1 col-12"></div>
+            <div class="col-md-3 col-12 text-center">
               <div class="drink__modal-image text-center">
                 <img
                   class="drink__modal-image-img q-pa-md col-6"
@@ -43,19 +44,20 @@
               </div>
             </div>
             <div class="col-md-8">
-              <div class="drink__info-item">
-                <div class="drink__info-item-title">Tipo:</div>
-                {{ drinkDetails.strAlcoholic }}
+              <div class="flex">
+                <div class="drink__info-item">
+                  <div class="drink__info-item-title">Tipo:</div>
+                  {{ drinkDetails.strAlcoholic }}
+                </div>
+                <div class="drink__info-item">
+                  <div class="drink__info-item-title">Categoria:</div>
+                  {{ drinkDetails.strCategory }}
+                </div>
+                <div class="drink__info-item">
+                  <div class="drink__info-item-title">Tipo de copo:</div>
+                  {{ drinkDetails.strGlass }}
+                </div>
               </div>
-              <div class="drink__info-item">
-                <div class="drink__info-item-title">Categoria:</div>
-                {{ drinkDetails.strCategory }}
-              </div>
-              <div class="drink__info-item">
-                <div class="drink__info-item-title">Tipo de copo:</div>
-                {{ drinkDetails.strGlass }}
-              </div>
-
               <div class="drink__info-item">
                 <div class="drink__info-item-title">Ingredientes:</div>
                 <ul>
@@ -183,8 +185,10 @@ export default {
 .drink__info-item {
   font-size: 1rem;
   padding: 8px;
+  font-size: 0.9rem;
 }
 .drink__info-item-title {
   font-weight: 700;
+  font-size: 0.9rem;
 }
 </style>
