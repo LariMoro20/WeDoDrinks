@@ -25,7 +25,7 @@
                   mesmo tomar sozinho.
                 </p>
                 <q-btn
-                  color="accent"
+                  color="secondary"
                   text-color="white"
                   to="/categories"
                   label="Encontrar drinks"
@@ -57,7 +57,7 @@
                   você experimentar!
                 </p>
                 <q-btn
-                  color="accent"
+                  color="primary"
                   text-color="white"
                   to="/drinks/RandomDrink"
                   label="Sortear um drink agora!"
@@ -83,7 +83,7 @@
                   mundo na festa
                 </p>
                 <q-btn
-                  color="accent"
+                  color="secondary"
                   text-color="white"
                   to="/drinks/type/Non_Alcoholic/"
                   label="Conferir os drinks"
