@@ -1,5 +1,5 @@
 <template>
-  <nav class="flex justify-center desktop-only">
+  <nav class="flex justify-end desktop-only">
     <ul class="horizontal__menu no-padding no-margin">
       <li class="horizontal__menu-item">
         <router-link class="horizontal__menu-item-link" to="/"
@@ -31,7 +31,7 @@
       </li>
     </ul>
   </nav>
-  <q-btn color="primary" label="Menu" class="mobile-only full-width">
+  <q-btn color="primary" label="Menu" class="mobile-only full-width q-pb-md">
     <q-menu fit>
       <q-list>
         <q-item clickable v-close-popup>

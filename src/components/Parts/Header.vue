@@ -1,11 +1,11 @@
 <template>
-  <div class="header bg-primary flex justify-between items-center">
+  <div class="header bg-primary flex row justify-between items-center">
     <div class="header-logo text-center">
       <router-link to="/"
         ><img class="header-logo-img" src="/logo/logotipo.png"
       /></router-link>
     </div>
-    <div>
+    <div class="col-12 col-md-6 text-left">
       <Menu />
       <q-input
         dense
