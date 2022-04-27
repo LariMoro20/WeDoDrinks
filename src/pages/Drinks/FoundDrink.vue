@@ -2,7 +2,7 @@
   <q-page>
     <div class="drinks row flex q-py-md">
       <div class="drinks__title text-center full-width q-py-md">
-        Drinks com o nome/inicial
+        Drinks encontrados com:
         {{ $route.params.id.replace("_", " ") }}
       </div>
       <div class="container">
