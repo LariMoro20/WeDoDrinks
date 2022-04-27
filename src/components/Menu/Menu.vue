@@ -16,7 +16,7 @@
         <router-link
           class="horizontal__menu-item-link"
           to="/drinks/type/Non_Alcoholic/"
-          >Drinks não alcoólicos</router-link
+          >Sem alcoól</router-link
         >
       </li>
       <li class="horizontal__menu-item">
@@ -60,7 +60,7 @@
           <router-link
             class="horizontalmobile__menu-item-link full-width"
             to="/drinks/type/Non_Alcoholic/"
-            >Drinks não alcoólicos</router-link
+            >Sem alcoól</router-link
           >
         </q-item>
         <q-item clickable v-close-popup>
