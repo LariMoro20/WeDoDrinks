@@ -86,9 +86,7 @@
 export default {};
 </script>
 
-<style>
-.horizontal__menu {
-}
+<style scoped>
 .horizontal__menu-item {
   padding: 10px;
   display: inline-block;
