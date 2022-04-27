@@ -41,7 +41,9 @@ export default defineComponent({
     const drinkname = ref("");
     const drinks = ref([""]);
     const handleGetDrink = async () => {
-      router.push({ name: "search", params: { id: drinkname.value } });
+      if (drinkname.value != "")
+        router.push({ name: "search", params: { id: drinkname.value } });
+      drinkname.value = "";
     };
 
     return {
