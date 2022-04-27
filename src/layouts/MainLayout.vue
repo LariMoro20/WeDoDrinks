@@ -2,7 +2,7 @@
   <q-layout view="lHh Lpr lFf" class="bg-black">
     <Header />
     <q-page-container>
-      <router-view />
+      <router-view :key="$route.fullPath" />
     </q-page-container>
     <Footer />
     <q-dialog

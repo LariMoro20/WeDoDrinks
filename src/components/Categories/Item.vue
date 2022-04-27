@@ -31,8 +31,8 @@
 export default {
   props: {
     categorie: {
-      default: false,
-      type: [Array, Boolean],
+      default: null,
+      type: [Array, Object],
     },
     user: Object,
   },
