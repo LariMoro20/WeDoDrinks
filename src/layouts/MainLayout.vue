@@ -1,7 +1,7 @@
 <template>
   <q-layout view="lHh Lpr lFf" class="pages_color">
     <Header />
-    <q-page-container>
+    <q-page-container class="bg-test">
       <router-view :key="$route.fullPath" />
     </q-page-container>
     <Footer />
@@ -117,6 +117,9 @@ export default defineComponent({
 <style>
 * {
   font-family: "Josefin Sans", sans-serif;
+}
+.bg-test {
+  background-color: #000000a3;
 }
 .pages_color {
   background-image: url("/images/bg6.jpg");
