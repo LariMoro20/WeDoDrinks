@@ -1,10 +1,11 @@
 <template>
   <q-page>
     <div class="about row full-width q-pt-md">
-      <div class="about__title text-center full-width q-py-md">Sobre</div>
       <div class="full-width q-pa-md">
         <div class="container">
-          <div class="row">
+          <div class="row about__content">
+            <div class="about__title text-center full-width q-py-md">Sobre</div>
+
             <div
               class="col-md-12 col-12 text-center justify-center items-center flex"
             >
@@ -89,6 +90,35 @@
                     >Fundo vetor criado por freepik - br.freepik.com</a
                   >
                 </li>
+                <li>
+                  <a
+                    href="https://br.freepik.com/fotos-vetores-gratis/luz-desfocada"
+                    >Luz desfocada foto criado por rawpixel.com -
+                    br.freepik.com</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://br.freepik.com/fotos-vetores-gratis/carnaval-brasileiro"
+                    >Carnaval brasileiro vetor criado por pikisuperstar -
+                    br.freepik.com</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://br.freepik.com/fotos-vetores-gratis/tropical-neon"
+                    >Tropical neon vetor criado por redgreystock -
+                    br.freepik.com</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="https://br.freepik.com/fotos-vetores-gratis/luz-desfocada"
+                    >Luz desfocada foto criado por rawpixel.com -
+                    br.freepik.com</a
+                  >
+                </li>
               </ul>
             </div>
             <div class="col-md-12 col-12 text-center q-pt-xl">
@@ -119,6 +149,11 @@ export default defineComponent({
 <style scoped>
 .about a {
   color: white;
+}
+.about__content {
+  background-color: #0000007a;
+  padding: 20px;
+  border-radius: 20px;
 }
 .section__full {
   background-image: url("/images/bg1.jpg");
