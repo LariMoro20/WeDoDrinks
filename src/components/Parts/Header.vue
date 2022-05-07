@@ -5,7 +5,7 @@
         ><img class="header-logo-img" src="/logo/logotipo.png"
       /></router-link>
     </div>
-    <div class="col-12 col-md-6 text-left">
+    <div class="col-12 col-md-5 text-left">
       <Menu />
       <q-input
         dense
