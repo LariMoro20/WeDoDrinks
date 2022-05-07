@@ -151,7 +151,6 @@ export default defineComponent({
   color: white;
 }
 .about__content {
-  background-color: #0000007a;
   padding: 20px;
   border-radius: 20px;
 }
