@@ -108,6 +108,9 @@ export default defineComponent({
 });
 </script>
 <style scoped>
+.homepage {
+  background-color: black;
+}
 .section__full {
   background-image: url("/images/bg1.jpg");
   background-size: cover;
