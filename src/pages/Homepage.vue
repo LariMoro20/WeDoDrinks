@@ -5,7 +5,7 @@
         <div
           class="col-md-6 col-lg-6 col-12 justify-center items-center flex q-pa-lg section__full-text"
         >
-          <p class="">
+          <p class="text-black">
             Bem vindos(as) ao WeDoDrinks! Aqui você encontrará receitas de
             bebidas e coquetéis de todo o mundo. Drinks com e sem alcool!
           </p>
