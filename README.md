@@ -3,7 +3,7 @@
 Esta aplicação foi desenvolvida para estudo e composição de portifólio, podendo ser atualizada em qualquer momento.
 Os dados aqui exibidos, são obtidos através da API TheCocktailDB (https://www.thecocktaildb.com/api.php) a qual é responsavel pelo armazenamento e atualização dos mesmos.
 
-Para visualizar o layout: https://wedodrinks-larimoro20.vercel.app/
+Para visualizar o layout: https://wedodrinks-larisantos.vercel.app
 
 ![imagem](https://github.com/LariMoro20/WeDoDrinks/blob/main/print1.png)
 
@@ -32,3 +32,10 @@ quasar build
 cd dist/spa
 quasar serve
 ```
+
+## Créditos :star:
+
+- [Fontes Google JosefinSans](https://fonts.google.com/specimen/Josefin+Sans)
+- [Imagens](https://wedodrinks-larisantos.vercel.app/about)
+
+Made with :heart: by [Larissa Santos](https://larissa-santos.vercel.app/)
